@@ -13,7 +13,7 @@ This Tool will have more functionality in the future.
   python3 mitm.py -R <YOUR_NETWORK_RANGE>
 ```
 for example: 192.168.0.0/24
-# Sniff DHCP packets to capture victim's device hostname
+# Sniff DHCP packets to capture target device hostname
 ```
 python3 mitm.py -R <YOUR_NETWORK_RANGE> -D <TARGET_IP>
 ```
