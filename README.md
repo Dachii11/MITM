@@ -7,8 +7,11 @@ Sniff others traffic in the network with just one command. (It displays only **D
 **Use this tool for educationaly purposes only and see how MITM attack works**
 
 # How to run
- ```
+```
   python3 mitm.py -R <YOUR_NETWORK_RANGE>
- ```
-
+```
 for example: 192.168.0.0/24
+# Sniff DHCP packets to capture victim's device hostname
+```
+python3 mitm.py -R <YOUR_NETWORK_RANGE> -D <TARGET_IP>
+```
