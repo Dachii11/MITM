@@ -7,6 +7,10 @@ Sniff others traffic in the network with just one command. (It displays only **D
 **Use this tool for educationally purposes only and see how MITM attack works**
 
 This Tool will have more functionality in the future.
+# Install requirements
+```
+ pip install -r requirements.txt
+```
 
 # How to run
 ```
