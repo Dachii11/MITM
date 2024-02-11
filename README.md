@@ -10,3 +10,5 @@ Sniff others traffic in the network with just one command. (It displays only **D
  ```
   python3 mitm.py -R <YOUR_NETWORK_RANGE>
  ```
+
+for example: 192.168.0.0/24
