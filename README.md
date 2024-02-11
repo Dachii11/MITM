@@ -6,6 +6,8 @@ Simple MITM (man in the middle) tool written in python.
 Sniff others traffic in the network with just one command. (It displays only **DNS** packets to see what websites they visit but saving all traffic in .pcap files).
 **Use this tool for educationally purposes only and see how MITM attack works**
 
+This Tool will have more functionality in the future
+
 # How to run
 ```
   python3 mitm.py -R <YOUR_NETWORK_RANGE>
