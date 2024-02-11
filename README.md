@@ -18,4 +18,4 @@ python3 mitm.py -R <YOUR_NETWORK_RANGE> -D <TARGET_IP>
 sniffing DHCP **requires wlan interface**, so if you using **VM** you will need wlan adapter that supports Monitor Mode **&** Packet Injection.
 
 # How DHCP sniffing works
-attacker deauthing victim's device from the network, it waits until target connects again and captures DHCP packets containing device hostname.
+attacker deauthing target device from the network, it waits until target connects again and captures DHCP packets containing device hostname.
