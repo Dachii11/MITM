@@ -21,3 +21,4 @@ sniffing DHCP **requires wlan interface**, so if you using **VM** you will need 
 
 # How DHCP sniffing works
 attacker deauthing target device from the network, it waits until target connects again and captures DHCP packets containing device hostname.
+**Put your wlan interface on Monitor Mode**
