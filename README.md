@@ -21,7 +21,7 @@ for example: 192.168.0.0/24
 ```
 python3 mitm.py -R <YOUR_NETWORK_RANGE> -D <TARGET_IP>
 ```
-sniffing DHCP **requires wlan interface**, so if you using **VM** you will need wlan adapter that supports Monitor Mode **&** Packet Injection.
+sniffing DHCP **requires wlan interface**, so if you are using **VM** you will need wlan adapter that supports Monitor Mode **&** Packet Injection.
 **Put your wlan interface on Monitor Mode**
 
 # How DHCP sniffing works
