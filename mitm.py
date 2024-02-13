@@ -217,6 +217,6 @@ if __name__ == "__main__":
 			print(f"clients not found on {args.range}\n")
 			sys.exit(0)
 	except PermissionError:
-		print("This tool requries root privilegs")
+		print("[Permission denied]: Please run as root")
 	except KeyboardInterrupt:
 		print("\nKeyboardInterrupt")
